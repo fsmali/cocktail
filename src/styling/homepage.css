@@ -1,0 +1,93 @@
+.homeMain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.home_container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.search_div {
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px;
+  /* margin-bottom: 20px; */
+}
+
+.home_input {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  font-size: 18px;
+  color: #333;
+}
+
+.drink_container ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+
+}
+
+.drink_container li {
+  width:30% ;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+  list-style: none;
+}
+
+.drink_container li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.drink_container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.drink_container h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.drink_container h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #777;
+}
+
+.drink_container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.drink_container a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #a73535;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.7s ease;
+}
+
+.drink_container a:hover {
+  background-color: #333;
+}
