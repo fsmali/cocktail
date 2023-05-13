@@ -5,7 +5,7 @@ There are there pages first, user find each cocktails on the first page or searc
 second page, the user can see individual drinks with more details .
 on the third page is about us page.
 
-Check out the deployed [Cocktail Page](https://645a3ddaf3cbe21728992819--incredible-medovik-5b29a1.netlify.app/)
+Check out the deployed [Cocktail Page](https://cocktail-page.netlify.app/)
 
 ## Demo
 
